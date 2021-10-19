@@ -1,7 +1,7 @@
 <template>
   <div class="comp1">
     <h1>{{ msg }}</h1>
-    
+    <h2>{{message}}</h2>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   },
   data: function() {
   return {
-    message: 'Some Message'
+    message: 'dato 1'
   };
 }
   

@@ -1,7 +1,7 @@
 <template>
   <div >
     <Nav/>
-    <UserMain/>
+    <MainTelefonos/>
   </div>
 </template>
 
@@ -9,13 +9,13 @@
 // @ is an alias to /src
 
 import Nav from '@/components/Nav.vue'
-import UserMain from '@/components/UserMain.vue'
+import MainTelefonos from '@/components/MainTelefonos.vue'
 
 export default {
-  name: 'Home',
+  name: 'Telefonos',
   components: {
     Nav,
-    UserMain
+    MainTelefonos
   }
 }
 </script>
